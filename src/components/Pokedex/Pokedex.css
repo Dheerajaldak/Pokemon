@@ -1,0 +1,27 @@
+.pokedex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  #pokedex-heading {
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    #pokedex-heading {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #pokedex-heading {
+      font-size: 1.2rem;
+    }
+  }
+  
