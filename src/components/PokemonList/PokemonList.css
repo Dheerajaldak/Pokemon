@@ -14,6 +14,20 @@
     width: 100%;
     gap: 1rem;
   }
+  .controls button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #d4dee9; /* Darker shade on hover */
+  }
+  
   
   /* Responsive styles for smaller devices */
   @media (max-width: 768px) {

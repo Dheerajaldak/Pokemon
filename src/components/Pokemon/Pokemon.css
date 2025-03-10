@@ -24,7 +24,8 @@
   }
   
   .pokemon:hover {
-    background-color: #f0e68c;
+    /* background-color: #f0e68c; */
+    background-color: rgb(231, 234, 239);
   }
   
   /* Responsive styles for smaller devices */
